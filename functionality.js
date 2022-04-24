@@ -1,0 +1,1 @@
+// Dynamically change content on spotlight modal based on state selected on map
