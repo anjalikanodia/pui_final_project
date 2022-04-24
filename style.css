@@ -1,3 +1,56 @@
 /***************************           Interactive Map            *******************************/
 
+#set-background-color {
+    background-color: #01161E;
+}
+
+#title {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+    font-family: 'Futura';
+    font-size: 48px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#usa-map {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+path {
+    stroke: #01161E;
+    fill: #AEC2C3;
+    pointer-events:all;
+}
+
+/* path:hover {
+    cursor:pointer;
+    fill: #B90202;
+} */
+
+#key-title {
+    font-family: 'Futura';
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.key-anchor {
+    font-family: 'Futura';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#low {
+    color: #E0F6F6;
+}
+
+#high {
+    color: #598392;
+}
+
 /***************************           Spotlight Modal            *******************************/
