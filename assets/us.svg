@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <?xml-stylesheet href="style.css" type="text/css"?>
+   xmlns="http://www.w3.org/1999/xhtml" rel="stylesheet" href="style.css" type="text/css" -->
 <!--
 ************* Copyright (c) 2017 Pareto Softare, LLC DBA Simplemaps.com *******************		
 ************* Free for Commercial Use, full terms at  http://simplemaps.com/resources/svg-license ************
@@ -47,7 +49,10 @@
      id="defs4">
     <style
        type="text/css"
-       id="style6">path { fill-rule: evenodd; }</style>
+       id="style6">
+       path { fill-rule: evenodd; }
+       path:hover  fill: red; }
+       </style>
   </defs>
   <metadata
      id="metadata8">
