@@ -9,14 +9,17 @@ Assignment 8: Final Project - Reflection
 
 
 2. Description\
-*Purpose of Website*\
+Purpose of Website\
 My website is an informational tool that helps users learn about 1 must-visit work of Architecture (in my view) in each state within the United States.\
-*Information conveyed in website*\
-The website conveys 2 types of information. First, it conveys the density of architectural works across the US, by state. Second, for each state, it spotlights one work of architecture that is a must-visit, and presents information about the work itself - like when it was built, who the architect is, why it was built, and what purpose it serves today.
-*How It’s Interesting and Engaging*\
+</br>
+Information conveyed in website\
+The website conveys 2 types of information. First, it conveys the density of architectural works across the US, by state. Second, for each state, it spotlights one work of architecture that is a must-visit, and presents information about the work itself - like when it was built, who the architect is, why it was built, and what purpose it serves today.\
+</br>
+How It’s Interesting and Engaging\
 What makes it engaging is the way the information is presented - in the form of an interactive map. Clicking on a state will trigger an animation that reveals the work of Architecture.\
 What makes it interesting, in my view, is that the project reflects my dual interest in HCI and Architecture and my passion for travel outside of academics. The website conveys my personal experiences/interests since the works of Architecture I plan to showcase include some that I have visited and loved and others that I hope to visit someday.
-*Target Audience*\
+</br>
+Target Audience\
 The target audience for this tool is anyone interested in Architecture and travel. Users can read about these works of Architecture for fun or even get ideas for their next trip.
 
 
