@@ -6,9 +6,17 @@
         <title>Must Visit U.S. Architectures</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <script src="functionality.js" type="text/javascript"></script>
+
+        <!-- Bootstrap -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!-- Swiper JS Lbrary for Carousel -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </head>
     
     <body id="set-background-color">
@@ -22,7 +30,7 @@
         <!-- XML code has been modified to change visual appearance of map to match my Figma prototype  -->
         <!-- <div id="details-box"></div> -->
 
-        <div id="map">
+        <div>
             <svg
             xmlns:dc="http://purl.org/dc/elements/1.1/"
             xmlns:cc="http://creativecommons.org/ns#"
@@ -32,14 +40,13 @@
             xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
             xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
             enable_background="new 0 0 1000 589"
-            height="589px"
             pretty_print="False"
             style="stroke-linejoin: round; stroke:#000; fill: none;"
             version="1.1"
             viewBox="0 0 1000 589"
-            width="1000px"
             preserveAspectRatio="xMinYMin meet"
             inkscape:version="0.48.4 r9939"
+            id="responsive-map"
             sodipodi:docname="us.svg">
             <sodipodi:namedview
                 pagecolor="#ffffff"
@@ -481,11 +488,13 @@
             <div id="key-title">Density of Architectural Works</div>
             <ul class="key-anchor">
                 <li id="low">Low</li>
-                <li class="key-box" id="box-low"></li>
-                <li class="key-box" id="box-less"></li>
-                <li class="key-box" id="box-mid"></li>
                 <li class="key-box" id="box-high"></li>
+                <li class="key-box" id="box-mid"></li>
+                <li class="key-box" id="box-less"></li>
+                <li class="key-box" id="box-low"></li>
                 <li id="high">High</li>
+                
+                
             </ul>
         </div>
 

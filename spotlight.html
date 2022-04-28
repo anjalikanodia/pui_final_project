@@ -11,10 +11,10 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- Swiper JS Lbrary for Carousel -->
         <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </head>
     
     <body id="set-background-color" onload="changeSpotlight(sessionStorage.getItem('id'))">
@@ -43,6 +43,7 @@
                     <!-- Slides -->
                         <div class="swiper-slide">
                             <img id="main-image" src="assets/PA Big Frame 1.png">
+                            <div id="image-caption">Image 1 of building</div>
                         </div>
 
                         <div class="swiper-slide">
@@ -70,11 +71,6 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
                 </div>
-                    <!-- <div>
-                        <img id="main-image" src="assets/PA Big Frame 1.png">
-                    </div> -->
-
-                <div id="image-caption">Image of building</div>
                 
             </div>
 
@@ -107,6 +103,7 @@
             </div>
         </div>
     
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </body>
 
 </html>

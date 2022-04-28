@@ -1,86 +1,86 @@
 /***************************           Landing Page            *******************************/
 #set-background-color {
-    background-color: #01161E;
+    background-color: #000507;
 }
 
 #title {
-    /* position: absolute;
-    top: 48px;
-    left: 48px; */
+    position:sticky;
+    margin-top: 48px;
+    margin-left: 48px;
     font-family: 'Futura';
-    font-size: 48px;
+    font-size: 3vw;
     font-weight: 700;
     color: #FFFFFF;
 }
 
-#usa-map {
+/* #usa-map {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+} */
+
+#responsive-map {
+    height: 70vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
 }
 
 #map-key {
     position: relative;
+    margin-left: 48px;
 }
 
 #key-title {
-    left: 48px;
     font-family: 'Futura';
     font-weight: 500;
-    font-size: 24px;
+    font-size: 1.5vw;
     color: #FFFFFF;
 }
 
 ul {
     list-style-type: none; /* to remove the bullet points */
+    padding-top: 1vh;
 }
 
 li {
     font-family: 'Futura';
     font-weight: 500;
-    font-size: 20px;
-    display: inline-block;
-    padding: 0px;
-}
-
-#low {
-    color: #E0F6F6;
+    font-size: 1.1vw;
+    float: left;
 }
 
 #high {
+    color: #E0F6F6;
+    padding-left: 1vw;
+}
+
+#low {
     color: #598392;
+    padding-right: 1vw;
 }
 
 .key-box {
-    width: 48px;
-    height: 48px;
-    padding: 0px;
-    margin: 0px;
+    width: 2vw;
+    height: 2vw;
 }
 
 #box-low {
     background-color: #E0F6F6;
-    padding: 0px;
-    margin: 0px;
 }
 
 #box-less {
     background-color: #AEC2C3;
-    padding: 0px;
-    margin: 0px;
 }
 
 #box-mid {
     background-color: #598392;
-    padding: 0px;
-    margin: 0px;
 }
 
 #box-high{
     background-color: #124559;
-    padding: 0px;
-    margin: 0px
 }
 
 /***************************           Map Interaction            *******************************/
