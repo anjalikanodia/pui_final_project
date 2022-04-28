@@ -17,7 +17,7 @@ The website conveys 2 types of information. First, it conveys the density of arc
 
 - *How It’s Interesting and Engaging*\
 What makes it engaging is the way the information is presented - in the form of an interactive map. Clicking on a state will trigger an animation that reveals the work of Architecture.\
-What makes it interesting, in my view, is that the project reflects my dual interest in HCI and Architecture and my passion for travel outside of academics. The website conveys my personal experiences/interests since the works of Architecture I plan to showcase include some that I have visited and loved and others that I hope to visit someday.
+What makes it interesting, in my view, is that the project reflects my dual interest in HCI and Architecture and my passion for travel outside of academics. The website conveys my personal experiences/interests since the works of Architecture I showcase include some that I have visited and loved and others that I hope to visit someday.
 
 - *Target Audience*\
 The target audience for this tool is anyone interested in Architecture and travel. Users can read about these works of Architecture for fun or even get ideas for their next trip.
@@ -26,7 +26,8 @@ The target audience for this tool is anyone interested in Architecture and trave
 3. Using the Website\
 1 - Hover over map to highlight states\
 2 - Click on state of choice to reveal architectural work\
-3- Close modal (hit 'x') to go back to the map\
+3 - Click on image to learn more about architectural work\
+3 - Close modal (hit 'x') to go back to the map\
 
 4. External Libraries\
 - *Tool*: Bootstrap
