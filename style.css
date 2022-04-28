@@ -80,7 +80,7 @@ li {
 /* Reference for the code in this section: https://codepen.io/codecustard/pen/NWpZxey */
 
 path {
-    opacity: 40%;
+    opacity: 30%;
 }
 
 .active {
@@ -102,6 +102,10 @@ path {
     Width: 100%;
     height: 100%;
     background-color: #01161E;
+}
+
+#transparent-title {
+    opacity: 20%;
 }
 
 .card {
