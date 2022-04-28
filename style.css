@@ -245,6 +245,12 @@ path {
     height: 12px;
 }
 
+#main-image:hover {
+    fill: white;
+    opacity: 50%;
+    transition: .25s ease;
+}
+
 /* .column-left #overlay-text {
     position: relative;
     visibility: hidden;
@@ -253,10 +259,6 @@ path {
 
 .column-left:hover #overlay-text {
     visibility: visible;
-}
+} /*
 
-#main-image:hover {
-    fill: white;
-    opacity: 50%;
-    transition: .25s ease;
-} */
+
