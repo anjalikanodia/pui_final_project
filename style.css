@@ -150,6 +150,19 @@ path {
     z-index: 1; /* Sit on top */
 }
 
+#cross {
+    float:right;
+    font-family: 'Futura';
+    font-size: 30px;
+    color: #01161E;
+    vertical-align:middle;
+}
+
+#cross:hover {
+    color:#B90202;
+    text-decoration: none;
+}
+
 .column-left {
     float: left;
     width: 45%;

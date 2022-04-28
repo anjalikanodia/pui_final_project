@@ -17,7 +17,7 @@ var Texas = new State ("Texas", "Kimbell Art Museum", "Louis I. Kahn (1867-1959)
 var California = new State ("California", "Eames House", "Charles and Ray Eames (-1978)", "1949", "Los Angeles","The Eames House, also known as Case Study House No. 8, is a landmark of mid-20th century modern architecture located in the Pacific Palisades neighborhood of Los Angeles. It was designed and constructed by husband-and-wife to serve as their home and studio. They lived in their home until their deaths: Charles in 1978 and Ray, ten years to the day, in 1988.","Charles described the house as unselfconscious. There is a sense of that “way-it-should-be-ness”. Charles and Ray designed a house specifically to meet their needs, but they were those universal needs that we all share as humans. They believed in the honest use of materials and straightforward connections. The details WERE the product!", "assets/CA Big Frame 1.png");
 var Oregon = new State ("Oregon", "Portland Japanese Garden", "Kengo Kuma (1954-)", "2017", "Portland","Portland Japanese Garden's new Cultural Village is a modest, human-scaled set of buildings arranged around a courtyard plaza, whose fourth side is the existing, untouched gardens from the 1960s. The project is a village positioned along a journey from the city to the top of the hill, a form of modern monzenmachi wherein the pilgrimage pays homage to the spirit of nature.","There are four buildings, each with its own means of merging into the dramatic slopes of the terrain, in combination with the tall vertical lines of the Pacific Northwest conifers: the Ticketing Pavilion floating above gentle stepped ponds, the Tea Cafe hovering above the ravine, and the main Village House and Garden House.", "assets/CA Big Frame 1.png");
 
-var states_list = [Oregon, California, Texas, Pennsylvania]
+var states_list = [Oregon, California, Texas,Pennsylvania]
 
 // Changing content on spotlight modal based on which state is clicked on the map
 function changeSpotlight(id) {
@@ -30,14 +30,6 @@ function changeSpotlight(id) {
     document.getElementById("building-description-2").textContent = states_list[id].description2;
     document.getElementById("main-image").src= states_list[id].image;
 }
-
-
-
-
-
-
-
-
 
 
 // Reference for the code in this section: https://codepen.io/codecustard/pen/NWpZxey
