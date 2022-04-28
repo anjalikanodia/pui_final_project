@@ -8,7 +8,7 @@ Assignment 8: Final Project - Reflection
 *Website*: https://anjalikanodia.github.io/pui_final_project/
 
 
-2. Description\
+2. Description
 - *Purpose of Website*\
 My website is an informational tool that helps users learn about 1 must-visit work of Architecture (in my view) in each state within the United States. 
 
