@@ -30,22 +30,3 @@ function changeSpotlight(id) {
     document.getElementById("building-description-2").textContent = states_list[id].description2;
     document.getElementById("main-image").src= states_list[id].image;
 }
-
-var swiper = new Swiper('.swiper', {
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  
-    // Navigation arrows
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
-    },
-});

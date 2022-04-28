@@ -43,7 +43,6 @@
                     <!-- Slides -->
                         <div class="swiper-slide">
                             <img id="main-image" src="assets/PA Big Frame 1.png">
-                            <div id="image-caption">Image 1 of building</div>
                         </div>
 
                         <div class="swiper-slide">
@@ -103,7 +102,25 @@
             </div>
         </div>
     
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js">
+            var swiper = new Swiper('.swiper', {
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+
+                // And if we need scrollbar
+                scrollbar: {
+                    el: '.swiper-scrollbar',
+                },
+            });
+        </script>
     </body>
 
 </html>
