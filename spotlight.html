@@ -12,18 +12,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- Swiper JS Lbrary for Carousel -->
-        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     </head>
     
     <body id="set-background-color" onload="changeSpotlight(sessionStorage.getItem('id'))">
 
-        <!-- Create modal frame -->
-        <div id="modal-card">
+        <!-- Create modal window using Bootstrap -->
+        <div class="card">
 
             <!-- Modal header -->
-            
             <div>
                 <span id="building-state">x</span>
                 <span id="divider"> | </span>
@@ -32,95 +28,44 @@
                 <div class="spacer"></div>
             </div>
 
-            <!-- Left column: includes image -->
-            <div class="column-left">
+            <!-- Modal body -->
+            <div class="card-body">
 
-                <!-- Carousel -->
-                <div class="swiper">
-
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                    <!-- Slides -->
-                        <div class="swiper-slide">
-                            <img id="main-image" src="assets/PA Big Frame 1.png">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img id="main-image" src="assets/PA Big Frame 2.png">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img id="main-image" src="assets/PA Big Frame 3.png">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img id="main-image" src="assets/PA Big Frame 4.png">
-                        </div>
-
-                        <div class="swiper-slide">
-                            <img id="main-image" src="assets/PA Big Frame 5.png">
-                        </div>
-
+                <!-- Left column: includes image -->
+                    <div class="column-left">
+                        <img id="main-image" src="assets/PA Big Frame 5.png">
                     </div>
 
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
+                <!-- Right column: includes text -->
+                <div class="column-right">
+                    <!-- Quick facts -->
+                    <div class="quick-facts">
+                        <div>
+                            <span class="fact-constant">Architect:</span>
+                            <span id="building-architect">x</span>
+                        </div>
 
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
+                        <div>
+                            <span class="fact-constant">Year:</span>
+                            <span id="building-year">x</span>
+                        </div>
+
+                        <div>
+                            <span class="fact-constant">Location:</span>
+                            <span id="building-location">x</span>
+                        </div>
+
+                        <div class="spacer"></div>
+                    </div>
+                    
+                    <!-- Description -->
+                    <div id="building-description-1">x</div>
+                    <div id="spacer-paragraph"> </div>
+                    <div id="building-description-2">x</div>
                 </div>
-                
-            </div>
-
-            <!-- Right column -->
-            <div class="column-right">
-                <!-- Quick facts -->
-                <div class="quick-facts">
-                    <div>
-                        <span class="fact-constant">Architect:</span>
-                        <span id="building-architect">x</span>
-                    </div>
-
-                    <div>
-                        <span class="fact-constant">Year:</span>
-                        <span id="building-year">x</span>
-                    </div>
-
-                    <div>
-                        <span class="fact-constant">Location:</span>
-                        <span id="building-location">x</span>
-                    </div>
-
-                    <div class="spacer"></div>
-                </div>
-                
-                <!-- Description -->
-                <div id="building-description-1">x</div>
-                <div id="spacer-paragraph"> </div>
-                <div id="building-description-2">x</div>
             </div>
         </div>
     
-        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js">
-            var swiper = new Swiper('.swiper', {
-                // If we need pagination
-                pagination: {
-                    el: '.swiper-pagination',
-                },
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-
-                // And if we need scrollbar
-                scrollbar: {
-                    el: '.swiper-scrollbar',
-                },
-            });
-        </script>
     </body>
 
 </html>

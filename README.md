@@ -7,7 +7,7 @@ Assignment 8: Final Project - Reflection
 
 Links
     Figma Prototype: https://www.figma.com/proto/TveUQRCsFTt1lDxRqC257V/PUI-Final-Project?page-id=0%3A1&node-id=0%3A1&viewport=243%2C48%2C0.08&scaling=min-zoom&starting-point-node-id=2%3A2 
-    Website: 
+    Website: https://anjalikanodia.github.io/pui_final_project/  
 
 
 Description:
@@ -28,13 +28,12 @@ Description:
 Using the Website
     1. Hover over map to highlight states
     2. Click on state of choice to reveal architectural work
-    3. Click arrows on carousel to reveal new images
-    4. Close modal (hit 'x') to go back to the map
+    3. Close modal (hit 'x') to go back to the map
 
 External Libraries 
-    Tool: Swiper
-    Why I Chose to Use It: I chose to use it because I wanted to experiment with a library I had never used before and found Swiper to be a promising option for my main purpose - making a carousel.
-    How I Used It: I used it in my the modals for the architecture spotlights to make the carousel of images.
+    Tool: Bootstrap
+    Why I Chose to Use It: I chose to use it because I wanted to experiment with a library I had never used before and implement somee things we learned in lab. I found Bootstrap to be a promising option for my main purpose - making a modal window.
+    How I Used It: I used it to create a modal for spotlighting a work of architecture.
     What it Adds to my Website: It adds interactivity to my website.
 
 Iteration from HW7
