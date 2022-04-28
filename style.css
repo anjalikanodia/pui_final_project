@@ -1,5 +1,4 @@
 /***************************           Landing Page            *******************************/
-
 #set-background-color {
     background-color: #01161E;
 }
@@ -42,6 +41,7 @@ li {
     font-weight: 500;
     font-size: 20px;
     display: inline-block;
+    padding: 0px;
 }
 
 #low {
@@ -55,32 +55,46 @@ li {
 .key-box {
     width: 48px;
     height: 48px;
+    padding: 0px;
+    margin: 0px;
 }
 
 #box-low {
     background-color: #E0F6F6;
-    padding: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 #box-less {
     background-color: #AEC2C3;
-    padding: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 #box-mid {
     background-color: #598392;
-    padding: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 #box-high{
     background-color: #124559;
-    padding: none;
+    padding: 0px;
+    margin: 0px
 }
 
 /***************************           Map Interaction            *******************************/
 /* Reference for the code in this section: https://codepen.io/codecustard/pen/NWpZxey */
 
-path:hover {
+path {
+    opacity: 40%;
+}
+
+.active {
+    opacity: 100%;
+}
+
+.active:hover {
     fill: #B90202 !important;
     stroke: white !important;
     stroke-width: 2px !important;
@@ -164,6 +178,13 @@ path:hover {
     font-weight: 500;
 }
 
+#divider {
+    font-family: 'Futura';
+    font-size: 40px;
+    color: #01161E;
+    font-weight: 500;
+}
+
 #building-name {    
     font-family: 'Futura';
     font-size: 40px;
@@ -183,7 +204,14 @@ path:hover {
     font-weight: bold;
 }
 
-#building-description {
+#building-description-1 {
+    font-family: 'Futura';
+    font-size: 16px;
+    color: #598392;
+    font-weight: 500;
+}
+
+#building-description-2 {
     font-family: 'Futura';
     font-size: 16px;
     color: #598392;
@@ -194,6 +222,6 @@ path:hover {
     height: 24px;
 }
 
-.spacer-paragraph {
+#spacer-paragraph {
     height: 12px;
 }
